@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toy Toy T-Rex</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(to right,#000,#222);
+    padding:20px;
+}
+
+.foto-topo{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:30px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:1.5rem;
+    font-weight:bold;
+    padding:12px 20px;
+    border:2px solid white;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:black;
+}
+
+section{
+    padding:80px 10%;
+    min-height:100vh;
+}
+
+h2{
+    font-size:3rem;
+    margin-bottom:20px;
+    color:#f5c542;
+}
+
+h3{
+    margin-bottom:10px;
+}
+
+p{
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    margin:15px 0;
+    border-radius:12px;
+}
+
+.timeline{
+    border-left:4px solid #f5c542;
+    padding-left:20px;
+}
+
+.timeline div{
+    margin-bottom:25px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#000;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <!-- Coloca a foto do Toy Toy T-Rex na mesma pasta do arquivo HTML -->
+    <img src="toytoytrex.jpg" alt="Toy Toy T-Rex" class="foto-topo">
+
+    <h1>TOY TOY T-REX</h1>
+
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#biografia">Biografia</a>
+        <a href="#estilo">Estilo Musical</a>
+        <a href="#albuns">Álbuns</a>
+        <a href="#musicas">Músicas</a>
+        <a href="#timeline">Carreira</a>
+        <a href="#curiosidades">Curiosidades</a>
+    </nav>
+
+</header>
+
+<section id="historia">
+
+    <h2>História</h2>
+
+    <p>
+        Toy Toy T-Rex é um artista reconhecido no panorama da música
+        urbana lusófona. Ao longo da sua carreira destacou-se pela sua
+        capacidade de combinar melodias marcantes, letras profundas e
+        influências modernas, conquistando fãs em vários países.
+    </p>
+
+</section>
+
+<section id="biografia">
+
+    <h2>Biografia</h2>
+
+    <p>
+        <strong>Nome verdadeiro:</strong> Daniel Benjamin.
+        <br><br>
+
+        <strong>Data de nascimento:</strong> 24 de outubro de 1994.
+        <br><br>
+
+        <strong>Local de nascimento:</strong> Lisboa, Portugal.
+        <br><br>
+
+        Com raízes angolanas, tornou-se um dos nomes mais populares da
+        música urbana em língua portuguesa.
+    </p>
+
+</section>
+
+<section id="estilo">
+
+    <h2>Estilo Musical</h2>
+
+    <p>
+        O estilo musical de Toy Toy T-Rex mistura Hip-Hop, Rap Melódico,
+        R&B, Afrobeat e música urbana contemporânea. As suas músicas
+        destacam-se pela componente emocional, pelas melodias envolventes
+        e por uma produção moderna.
+    </p>
+
+</section>
+
+<section id="albuns">
+
+    <h2>Álbuns</h2>
+
+    <div class="card">Meu Espaço (2015)</div>
+    <div class="card">Gota D'Espaço (2020)</div>
+    <div class="card">Castanho (2021)</div>
+    <div class="card">Cor D'Água (2023)</div>
+
+</section>
+
+<section id="musicas">
+
+    <h2>Músicas Mais Populares</h2>
+
+    <div class="card">Amanhã</div>
+    <div class="card">Volta</div>
+    <div class="card">Feeling</div>
+    <div class="card">Café</div>
+    <div class="card">Chá de Camomila</div>
+
+</section>
+
+<section id="timeline">
+
+    <h2>Linha do Tempo da Carreira</h2>
+
+    <div class="timeline">
+
+        <div>
+            <h3>Início da Carreira</h3>
+            <p>Começou a divulgar as suas músicas e a construir a sua comunidade de fãs.</p>
+        </div>
+
+        <div>
+            <h3>Primeiros Sucessos</h3>
+            <p>As suas músicas ganharam destaque nas plataformas digitais e redes sociais.</p>
+        </div>
+
+        <div>
+            <h3>Lançamento de Projetos</h3>
+            <p>Lançou vários projetos que consolidaram a sua posição na música urbana.</p>
+        </div>
+
+        <div>
+            <h3>Reconhecimento Internacional</h3>
+            <p>Passou a ser ouvido por fãs de diversos países de língua portuguesa.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="curiosidades">
+
+    <h2>Curiosidades</h2>
+
+    <div class="card">
+        Tem raízes angolanas e nasceu em Portugal.
+    </div>
+
+    <div class="card">
+        É conhecido pela mistura de rap e melodias emocionais.
+    </div>
+
+    <div class="card">
+        Acumulou milhões de reproduções nas plataformas digitais.
+    </div>
+
+    <div class="card">
+        É considerado uma das referências da música urbana lusófona.
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Site Dedicado a Toy Toy T-Rex</h3>
+
+    <p>
+        Desenvolvido por Anilton.
+    </p>
+
+    <br>
+
+    <p>
+        Conteúdo e assistência técnica fornecidos com o apoio do ChatGPT.
+    </p>
+
+</footer>
+
+</body>
+</html>
